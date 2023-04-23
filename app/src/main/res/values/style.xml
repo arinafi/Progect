@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyTextStyle1" parent="@android:style/TextAppearance.Medium">
+        //-Ширина
+        <item name="android:layout_width">match_parent</item>
+        //-Высота
+        <item name="android:layout_height">wrap_content</item>
+        //-Цвет текста
+        <item name="android:textColor">#FFA000</item>
+        <item name="android:typeface">monospace</item>
+        //-Шрифт
+        <item name="android:font">montserrat_black</item>
+        //-Фон
+        <item name="android:backgroundTint">#FFFFFF</item>
+    </style>
+
+    <style name="MyStyleFromButton1" parent="@android:style/TextAppearance.Medium">
+        //-Ширина
+        <item name="android:layout_width">match_parent</item>
+        //-Высота
+        <item name="android:layout_height">wrap_content</item>
+        //-Цвет текста
+        <item name="android:textColor">#FFA000</item>
+        <item name="android:typeface">monospace</item>
+        //-Шрифт
+        <item name="android:font">montserrat_black</item>
+        //-Фон
+        <item name="android:background">#FFFFFF</item>
+    </style>
+
+
+    <style name="MyTextStyle2" parent="@android:style/TextAppearance.Medium">
+        //-Ширина
+        <item name="android:layout_width">match_parent</item>
+        //-Высота
+        <item name="android:layout_height">wrap_content</item>
+        //-Цвет текста
+        <item name="android:textColor">#C7006E</item>
+        <item name="android:typeface">monospace</item>
+        //-Шрифт
+        <item name="android:font">montserrat_black</item>
+        //-Фон
+        <item name="android:backgroundTint">#000000</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+    <style name="MyStyleFromButton2" parent="@android:style/TextAppearance.Medium">
+        //-Ширина
+        <item name="android:layout_width">match_parent</item>
+        //-Высота
+        <item name="android:layout_height">wrap_content</item>
+        //-Цвет текста
+        <item name="android:textColor">#C7006E</item>
+        <item name="android:typeface">monospace</item>ъ
+        //-Шрифт
+        <item name="android:font">montserrat_black</item>
+        //-Фон
+        <item name="android:backgroundTint">#000000</item>
+        <item name="android:background">#000000</item>
+    </style>
+
+</resources>

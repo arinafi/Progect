@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/EditTextFirstName"
+        style="@style/MyTextStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="201dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Имя"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextSecondName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/EditTextSecondName"
+        style="@style/MyTextStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="201dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Фамилия"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextMiddleName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextFirstName" />
+
+    <EditText
+        android:id="@+id/EditTextMiddleName"
+        style="@style/MyTextStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="197dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Отчество"
+        app:layout_constraintBottom_toTopOf="@+id/EditTextDateBirth"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextSecondName" />
+
+    <EditText
+        android:id="@+id/EditTextDateBirth"
+        style="@style/MyTextStyle1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="197dp"
+        android:layout_marginBottom="551dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Дата рождения"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextMiddleName" />
+
+    <Button
+        android:id="@+id/buttonAddStydent"
+        style="@style/MyStyleFromButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="466dp"
+        android:text="Добавить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonDelete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextDateBirth"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/buttonDelete"
+        style="@style/MyStyleFromButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginBottom="462dp"
+        android:text="Удалить"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/buttonAddStydent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextDateBirth"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
